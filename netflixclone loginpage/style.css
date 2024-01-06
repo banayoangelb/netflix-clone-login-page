@@ -1,0 +1,114 @@
+body {
+    width: auto;
+    background-image: url(Screenshot\ \(84\).png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: black;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Poppins';font-size: 15px;
+}
+div.container {
+  width: auto;
+  margin: auto;
+  padding: auto;
+
+}
+h1 {
+    margin: 3%;
+    color: red;
+    font-size: 40px;
+    font-family:sans-serif;
+    font-stretch:semi-expanded;
+}
+.glow {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #f72323, 0 0 20px #e00000, 0 0 30px #f40e1607, 0 0 40px #e60000, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #830000;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #db0000, 0 0 30px #ff0000, 0 0 40px #ff4da6, 0 0 50px #ff4d4d, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #c50000;
+  }
+}
+label {
+  margin: 0;
+  padding: 2px;
+  color: white;
+  font-family: 'Poppins';font-size: 15px;
+}
+/* Style for the form box */
+.transparent-form-box {
+    width: 300px;
+    margin: 50px auto;
+    padding: 25px;
+    height: 75vh;
+    background-color: rgba(20, 19, 19, 0.8); 
+    opacity: 0. 9;/* Adjust the alpha value (fourth parameter) for transparency */
+  }
+
+  /* Style for form labels */
+  .transparent-form-box label {
+    max-height: 30vh;
+    border: none;   
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  /* Style for form input fields */
+  .transparent-form-box input {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 0%;
+    box-sizing: border-box;
+    opacity: 0.7;
+  }
+
+  /* Style for form submit button */
+  .transparent-form-box button {
+    background-color: red;
+    color: white;
+    width: 300px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s; /*Note: transtion first before hover!*/
+  }
+  .transparent-form-box button:hover{
+    background-color: #aa0417; 
+    color: white;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+.footer {
+  margin: 0%;
+  padding: 10px;
+  height: 20vh;
+  background: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+.footer h2{
+  width: max-content;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: white;
+  
+}
+.container {
+  color: white;
+  margin: 20px;
+  position: fixed;
+}
